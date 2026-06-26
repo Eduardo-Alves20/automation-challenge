@@ -1,5 +1,7 @@
 describe('Login', () => {
-  it('Realizar login com sucesso', () => {
+
+  it('Login com sucesso', () => {
+
     cy.visit('https://www.automationexercise.com/login');
 
     cy.get('[data-qa="login-email"]')
@@ -8,9 +10,11 @@ describe('Login', () => {
     cy.get('[data-qa="login-password"]')
       .type('teste');
 
-    cy.get('[data-qa="login-button"]').click();
+    cy.get('[data-qa="login-button"]')
+      .click();
 
     cy.contains('Logged in as')
       .should('be.visible');
   });
+
 });
