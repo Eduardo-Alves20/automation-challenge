@@ -31,6 +31,4 @@ $env:ELECTRON_RUN_AS_NODE=$null; npm run cy:run
 - Cucumber
 - BDD
 
-## Observacao
 
-Os cenarios BDD enviados estao em `features/`. O codigo Cypress enviado por WhatsApp foi materializado em `cypress/e2e/login.cy.js` e `cypress/e2e/api.cy.js`.
