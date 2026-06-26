@@ -1,0 +1,13 @@
+{
+  "name": "automation-challenge",
+  "version": "1.0.0",
+  "description": "Projeto QA Automacao com Cypress e BDD",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.3"
+  }
+}
